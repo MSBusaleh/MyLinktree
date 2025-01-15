@@ -1,0 +1,81 @@
+@font-face{
+font-family: PlaywriteIN;
+src: url("../assets/Fonts/PlaywriteIN-Regular.ttf");
+}
+
+@font-face{
+font-family: PlaywriteAUSA;
+src: url("../assets/Fonts/PlaywriteAUSA-Regular.ttf");
+}
+
+* {
+    text-align: center;
+    font-family: PlaywriteAUSA, Tahoma;
+    color: black;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-end;
+
+    background-image: url("../assets/bg0.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+.sign{
+    margin-bottom: 90%;
+}
+
+dev {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space between;
+}
+
+.button{
+    height: 80px;
+    width: 300px;
+    margin: 10px 5px 5px 5px;
+
+    display: flex;
+    justify-content: center;
+
+    border: 2px solid black;
+    border-radius: 20px;
+
+    background-color: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(4px);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+img{
+    width: 750px;
+    height: 170px;
+}
+
+.name{
+    margin-bottom: 10%;
+    font-size: 60px;
+    color: white;
+    text-shadow: 3.5px 3.5px black;
+    font-family: PlaywriteIN;
+}
